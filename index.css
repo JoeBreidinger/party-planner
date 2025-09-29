@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.parties {
+  display: grid;
+  gap: 1ch;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.parties a {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1ch;
+  text-decoration: none;
+  color: black;
+}
+
+.parties a:hover {
+  background: lightgrey;
+  font-weight: bold;
+}
